@@ -79,3 +79,28 @@
   height: 600px;
   border: 1px solid grey;
 }
+
+
+/* Footer */
+
+/* Footer Top */
+.footer-top{
+  background-color: #2C3E4F;
+}
+.footer-top .container{
+  width: 80%;
+  margin: auto;
+}
+.footer-top .col-lg-4{
+  border: 1px solid darkblue;
+  height: 250px;
+}
+
+/* Footer Bottom */
+.footer-bottom{
+  background-color: #19262F;
+}
+.footer-bottom .col-lg-4{
+  border: 1px solid lightblue;
+  height: 50px;
+}
