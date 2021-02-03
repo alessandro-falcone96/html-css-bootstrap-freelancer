@@ -3,3 +3,28 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+/* Main */
+
+/* Header Top */
+.header-top{
+  height: 100px;
+  background-color: #2C3E4F;
+}
+.header-top .col-lg-5{
+  height: 100%;
+  border: 1px solid black;
+}
+
+
+
+/* Header Bottom */
+.header-bottom{
+  height: 900px;
+  background-color: #1BBC9B;
+}
+.header-bottom .col-lg-6{
+  border: 1px solid black;
+  height: 75%;
+}
