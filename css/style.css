@@ -36,11 +36,13 @@
 }
 .section-1 .container-1{
   width: 50%;
+  margin: auto;
   height: 150px;
   border: 1px solid grey;
 }
 .section-1 .container-2{
   width: 80%;
+  margin: auto;
 }
 
 .section-1 .container-2 .col-lg-4{
