@@ -5,7 +5,7 @@
 }
 
 
-/* Main */
+/* Header */
 
 /* Header Top */
 .header-top{
@@ -17,14 +17,39 @@
   border: 1px solid black;
 }
 
-
-
 /* Header Bottom */
 .header-bottom{
-  height: 900px;
   background-color: #1BBC9B;
 }
 .header-bottom .col-lg-6{
-  border: 1px solid black;
-  height: 75%;
+  border: 1px solid green;
+  height: 800px;
 }
+
+
+
+/* Main */
+
+/* Section 1 */
+.section-1{
+  background-color: lightblue;
+}
+.section-1 .container-1{
+  width: 50%;
+  height: 200px;
+  border: 1px solid blue;
+}
+.section-1 .container-2{
+  width: 80%;
+}
+
+.section-1 .container-2 .col-lg-4{
+  border: 1px solid blue;
+  height: 300px;
+}
+
+
+
+
+/* Section 2 */
+/* Section 3 */
