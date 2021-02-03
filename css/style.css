@@ -32,24 +32,41 @@
 
 /* Section 1 */
 .section-1{
-  background-color: lightblue;
+  background-color: white;
 }
 .section-1 .container-1{
   width: 50%;
-  height: 200px;
-  border: 1px solid blue;
+  height: 150px;
+  border: 1px solid grey;
 }
 .section-1 .container-2{
   width: 80%;
 }
 
 .section-1 .container-2 .col-lg-4{
-  border: 1px solid blue;
+  border: 1px solid grey;
   height: 300px;
+}
+
+
+/* Section 2 */
+.section-2{
+  background-color: #1BBC9B;
+}
+.section-2 .container-1,
+.section-2 .container-3{
+  width: 30%;
+  margin: auto;
+  height: 150px;
+  border: 1px solid green;
+}
+.section-2 .container-2 .col-lg-4{
+  border: 1px solid green;
+  height: 250px;
 }
 
 
 
 
-/* Section 2 */
+
 /* Section 3 */
