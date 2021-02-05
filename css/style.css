@@ -114,11 +114,6 @@ h3{
   margin-top: 25px;
 }
 
-@media screen and (max-width: 767px) {
-  h1{
-    font-size: 35px;
-  }
-}
 
 /* Main */
 
@@ -276,6 +271,8 @@ h3{
 .section-3 .container-2 form button{
   padding: 10px 15px;
   margin-bottom: 100px;
+  background-color: #1BBC9B;
+  border: 1px solid #1BBC9B;
 }
 
 
@@ -326,6 +323,9 @@ h3{
   background-color: white;
 }
 
+.footer-top span a{
+  color: #1BBC9B;
+}
 
 
 /* Footer Bottom */
@@ -340,4 +340,12 @@ h3{
   color: white;
   text-align: center;
   padding: 25px 0px;
+}
+
+
+/* Media Query */
+@media screen and (max-width: 992px) {
+  .header-top h1{
+    font-size: 30px;
+  }
 }
