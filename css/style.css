@@ -91,6 +91,33 @@ h3{
   text-decoration: none;
 }
 
+.hamburger-menu{
+  display: none;
+}
+.hamburger-menu:hover .nav-verticale{
+  visibility: visible;
+}
+.hamburger-menu a{
+  text-transform: uppercase;
+  color: white;
+  background-color: #1BBC9B;
+  padding: 15px 10px;
+  border-radius: 5px;
+}
+.hamburger-menu ul.nav-verticale{
+  margin-top: 0px;
+  visibility: hidden;
+}
+
+.hamburger-menu ul.nav-verticale li{
+  display: block;
+  height: 75px;
+}
+.hamburger-menu ul.nav-verticale li a{
+  color: white;
+  background-color: #2C3E4F;
+  border-radius: 0px;
+}
 
 /* Header Bottom */
 .header-bottom{
@@ -347,5 +374,13 @@ h3{
 @media screen and (max-width: 992px) {
   .header-top h1{
     font-size: 30px;
+  }
+  .header-top ul.nav-orizzontale{
+    display: none;
+  }
+  .hamburger-menu{
+    display: block;
+    line-height: 100px;
+    text-align: right;
   }
 }
